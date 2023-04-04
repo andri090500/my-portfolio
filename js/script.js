@@ -30,7 +30,7 @@ $(document).ready(() => {
   // scroll efect
   $(window).scroll(() => {
     let nScroll = $(this).scrollTop();
-    console.log(nScroll);
+    // console.log(nScroll);
     // section about
     if (nScroll >= 500) {
       $(".title-about").css({
@@ -117,7 +117,7 @@ $(document).ready(() => {
     }
 
     // kontak section
-    if (nScroll >= 2700) {
+    if (nScroll >= 2514) {
       $(".title-kontak").css({
         opacity: 1,
         top: 0,

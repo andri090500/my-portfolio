@@ -79,15 +79,15 @@ nav .nav-links a:hover::after {
 }
 
 /* main */
-main {
-  min-height: 100vh;
+#home {
+  height: 100vh;
   text-align: center;
   padding: 7rem 0 0;
   position: relative;
   overflow: hidden;
 }
 
-main .foto {
+#home .foto {
   width: 200px;
   border-radius: 4rem 0 4rem 0;
   box-shadow: 2px 2px 10px var(--button);
@@ -95,31 +95,31 @@ main .foto {
   z-index: 99;
 }
 
-main .nama {
+#home .nama {
   font-size: 2rem;
   padding-top: 0.5rem;
   position: relative;
   z-index: 99;
 }
 
-main .nama span {
+#home .nama span {
   color: var(--button);
 }
 
-main .title {
+#home .title {
   font-size: 2rem;
   padding-bottom: 0.5rem;
   position: relative;
   z-index: 99;
 }
 
-main .title span {
+#home .title span {
   color: var(--button);
   font-family: "Alkatra", cursive;
   position: relative;
 }
 
-main .title span::before {
+#home .title span::before {
   content: "";
   position: absolute;
   top: 0;
@@ -141,7 +141,7 @@ main .title span::before {
   }
 }
 
-main .btn a {
+#home .btn a {
   display: inline-block;
   border: 1px solid var(--button);
   outline: none;
@@ -154,17 +154,17 @@ main .btn a {
   position: relative;
   z-index: 99;
 }
-main .btn {
+#home .btn {
   padding-bottom: 1rem;
 }
 
-main .btn a:hover {
+#home .btn a:hover {
   background-color: var(--bg2);
   border: 1px solid var(--button);
   color: var(--button);
 }
 
-main .social-media a {
+#home .social-media a {
   color: black;
   padding: 0 1.2rem;
   transition: 0.2s linear;
@@ -172,16 +172,17 @@ main .social-media a {
   z-index: 99;
 }
 
-main .social-media a:hover {
+#home .social-media a:hover {
   color: var(--button);
 }
 
 /* about */
 .about {
-  min-height: 100vh;
+  height: 100vh;
   padding: 0 2rem;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 .about .container-about {
@@ -211,9 +212,10 @@ main .social-media a:hover {
 
 /* skills */
 .skills {
-  min-height: 100vh;
+  height: 100vh;
   padding: 7rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .skills .container-skills h2 {
@@ -267,7 +269,7 @@ main .social-media a:hover {
 
 /* sertifikat */
 .sertifikat {
-  min-height: 100vh;
+  height: 100vh;
   padding: 7rem 0 7rem;
   position: relative;
 }
@@ -293,6 +295,8 @@ main .social-media a:hover {
   gap: 20px;
   position: relative;
   z-index: 99;
+  height: 100%;
+  overflow: scroll;
 }
 
 .sertifikat .container-sertifikat .box-sertifikat {
@@ -340,9 +344,10 @@ main .social-media a:hover {
 
 /* Kontak */
 .contact {
-  min-height: 100vh;
+  height: 100vh;
   padding: 7rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .contact h2 {
@@ -611,12 +616,12 @@ footer p a {
   #home .foto {
     width: 100px;
   }
-  main .btn {
+  #home .btn {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
-  main .btn a {
+  #home .btn a {
     padding: 1rem 10rem;
   }
   .about .container-about {
