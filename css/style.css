@@ -321,7 +321,7 @@ main .social-media a:hover {
 }
 
 .sertifikat .container-sertifikat .box-sertifikat a::before {
-  content: "Lihat File";
+  content: "Download File";
   position: absolute;
   display: flex;
   justify-content: center;
