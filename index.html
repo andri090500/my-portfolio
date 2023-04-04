@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Shortcut Icon" type="image/png" href="./img/young-man.png" />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:wght@100;200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- jquery -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Andri Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <h3 class="logo"><span>My</span> Portfolio</h3>
+      <div class="nav-links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#sertifikat">sertifikat</a>
+        <a href="#contact">kontak</a>
+      </div>
+      <i data-feather="align-justify" class="res-icon hamburger"></i>
+      <i data-feather="x" class="res-icon x"></i>
+    </nav>
+    <!-- ==================== -->
+
+    <!-- main -->
+    <main id="home">
+      <img
+        class="foto"
+        src="./img/new profile.jpg"
+        title="foto saya"
+        alt="profile"
+      />
+      <h2 class="nama">
+        <span>Hai</span>, saya Andri Firmansyah<span>.</span>
+      </h2>
+      <h2 class="title">Saya praktisi : <span class="text-typing"></span></h2>
+      <p class="btn">
+        <a target="_blank" href="./file/CV_Andri Firmansyah.pdf" download="cv"
+          >Download CV</a
+        >
+      </p>
+      <div class="social-media">
+        <a
+          target="_blank"
+          href="https://instagram.com/andri0905.af?igshid=ZDdkNTZiNTM="
+          ><i data-feather="instagram"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/profile.php?id=100030248719821&mibextid=ZbWKwL"
+          ><i data-feather="facebook"></i
+        ></a>
+        <a href="https://github.com/andri090500" target="_blank"
+          ><i data-feather="github"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/andri-firmansyah-1b7278255"
+          ><i data-feather="linkedin"></i
+        ></a>
+      </div>
+      <!-- shape -->
+      <img src="./img/shape6.png" id="shape1" />
+      <img src="./img/shape2.png" id="shape2" />
+    </main>
+    <!-- ==================== -->
+
+    <!-- section-about -->
+    <section class="about" id="about">
+      <div class="container-about">
+        <h2 class="title-about">Tentang <span>Saya</span></h2>
+        <p class="teks-about">
+          Saya seorang praktisi IT yang tertarik dalam web development dan IT
+          Support. saya tidak lepas dari penasaran dan membuat saya terus
+          belajar untuk menjadi ahli dalam web development dan IT support. Pada
+          web development saya belajar membuat website menggunakan html, css,
+          javascript dan php sedangkan di IT support saya belajar mengenai Set
+          up Sistem Operasi dari mulai instalasi, konfigurasi, troubleshoot
+          serta membangun jaringan LAN untuk menghubungkan 2 perangkat komputer
+          yang bertujuan untuk mudah melakukan pertukaran informasi.
+        </p>
+      </div>
+      <!-- shape -->
+      <img src="./img/shape6.png" id="shape3" />
+    </section>
+    <!-- ==================== -->
+
+    <!-- section skills -->
+    <section class="skills" id="skills">
+      <div class="container-skills">
+        <h2 class="title-skill"><span>Kemampuan</span> Saya</h2>
+        <ul>
+          <li class="draft-skill" id="skill1">
+            <img src="./img/html.png" alt="html" />
+            <p>Html</p>
+          </li>
+          <li class="draft-skill" id="skill2">
+            <img src="./img/css.png" alt="css" />
+            <p>Css</p>
+          </li>
+          <li class="draft-skill" id="skill3">
+            <img src="./img/javascript.png" alt="javascript" />
+            <p>Javascript</p>
+          </li>
+          <li class="draft-skill" id="skill4">
+            <img src="./img/php.png" alt="php" />
+            <p>PHP</p>
+          </li>
+          <li class="draft-skill" id="skill5">
+            <img src="./img/mysql.png" alt="mysql" />
+            <p>Mysql</p>
+          </li>
+          <li class="draft-skill" id="skill6">
+            <img src="./img/react js.png" alt="react" />
+            <p>React Js</p>
+          </li>
+          <li class="draft-skill" id="skill7">
+            <img src="./img/node js.png" alt="node" />
+            <p>Node Js</p>
+          </li>
+          <li class="draft-skill" id="skill8">
+            <img src="./img/windows.png" alt="os" />
+            <p>IT Support</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ==================== -->
+
+    <!-- section sertifikat -->
+    <section class="sertifikat" id="sertifikat">
+      <h2 class="title-sertif">Sertifikat <span>Pencapaian</span></h2>
+      <div class="container-sertifikat">
+        <div class="box-sertifikat" id="sertif1">
+          <a
+            href="./file/Andri Firmansyah-IT support google.pdf"
+            download
+            target="_blank"
+          >
+            <img src="./img/It_support.PNG" alt="sertifikat" class="gambar" />
+          </a>
+          <p class="keterangan">Pelatihan IT Support</p>
+        </div>
+        <div class="box-sertifikat" id="sertif2">
+          <a
+            href="./file/Sertifikat Penulisan Ilmiah.pdf"
+            download
+            target="_blank"
+          >
+            <img
+              src="./img/penulisan ilmiah.PNG"
+              alt="sertifikat"
+              class="gambar"
+            />
+          </a>
+          <p class="keterangan">Penulisan Ilmiah</p>
+        </div>
+        <div class="box-sertifikat" id="sertif3">
+          <a
+            href="./file/Sertifikat Pelatihan Mikrotik.pdf"
+            download
+            target="
+            _blank"
+          >
+            <img
+              src="./img/pelatihan mikrotik.PNG"
+              alt="sertifikat"
+              class="gambar"
+            />
+          </a>
+          <p class="keterangan">Pelatihan Mirkotik</p>
+        </div>
+        <div class="box-sertifikat" id="sertif4">
+          <a
+            href="./file/Sertifikat Uji Kompetensi Mikrotik.pdf"
+            download
+            target="_blank"
+          >
+            <img
+              src="./img/uji kompetensi mikrotik.PNG"
+              alt="sertifikat"
+              class="gambar"
+            />
+          </a>
+          <p class="keterangan">Uji Kompetensi Mikrotik</p>
+        </div>
+        <div class="box-sertifikat" id="sertif5">
+          <a href="./file/Piagam Penghargaan.pdf" download target="_blank">
+            <img src="./img/piagam TKJ.PNG" alt="sertifikat" class="gambar" />
+          </a>
+          <p class="keterangan">Murid Terbaik TKJ</p>
+        </div>
+        <div class="box-sertifikat" id="sertif6">
+          <a
+            href="./file/Sertifikat Praktek Industri.pdf"
+            download
+            target="_blank"
+          >
+            <img src="./img/magang.PNG" alt="sertifikat" class="gambar" />
+          </a>
+          <p class="keterangan">Magang IT Support</p>
+        </div>
+      </div>
+      <!-- shape -->
+      <img src="./img/shape3.png" id="shape5" />
+    </section>
+    <!-- ==================== -->
+
+    <!-- section contact -->
+    <section class="contact" id="contact">
+      <h2 class="title-kontak"><span>Kontak</span> Saya</h2>
+      <h3 class="desc-kontak">
+        Terima kasih atas waktunya untuk melihat website ini. Apakah ada yang
+        bisa saya bantu ?
+      </h3>
+      <div class="wrapper-contact">
+        <div class="box-contact">
+          <div class="row1">
+            <div class="nama">
+              <label for="nama">Nama</label>
+              <input type="text" id="nama" disabled />
+            </div>
+            <div class="email">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="xxx@xxx.com"
+                disabled
+              />
+            </div>
+          </div>
+          <div class="row2">
+            <label for="pesan">Pesan</label>
+            <textarea name="" id="pesan" disabled></textarea>
+          </div>
+          <div class="row3">
+            <button type="submit" disabled>Submit</button>
+          </div>
+          <p id="info">
+            Mohon maaf database kontak masih dalam pengembangan, untuk kontak
+            hubungi no hp : +62 812-9436-2023 atau email :
+            firmansyahandri.9500@gmail.com
+          </p>
+        </div>
+      </div>
+      <!-- shape -->
+      <img src="./img/shape1.png" id="shape6" />
+      <img src="./img/shape5.png" id="shape7" />
+    </section>
+    <!-- footer -->
+    <footer>
+      <p>
+        Created by
+        <a href="">Andri Firmansyah</a>, copyright &copy;2023
+      </p>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
