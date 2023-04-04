@@ -239,6 +239,8 @@ nav .nav-links a:hover::after {
   justify-content: center;
   position: relative;
   z-index: 99;
+  height: 100%;
+  overflow-y: scroll;
 }
 
 .skills .container-skills ul li {
