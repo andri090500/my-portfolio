@@ -215,7 +215,10 @@ nav .nav-links a:hover::after {
   height: 100vh;
   padding: 7rem 0;
   position: relative;
-  overflow: hidden;
+}
+
+.skills .container-skills {
+  height: 100%;
 }
 
 .skills .container-skills h2 {
@@ -251,7 +254,7 @@ nav .nav-links a:hover::after {
   padding: 1rem 2rem;
   background-color: white;
   border: 1px solid var(--button);
-  width: 25%;
+  width: 350px;
   border-radius: 10px;
   transition: 0.2s linear;
 }
@@ -265,7 +268,6 @@ nav .nav-links a:hover::after {
 }
 
 .skills .container-skills ul li:hover {
-  transform: scale(1.1);
   background-color: var(--button);
 }
 
@@ -298,7 +300,7 @@ nav .nav-links a:hover::after {
   position: relative;
   z-index: 99;
   height: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .sertifikat .container-sertifikat .box-sertifikat {
@@ -631,6 +633,7 @@ footer p a {
   }
   .skills {
     padding: 6rem 0;
+    width: 100%;
   }
   .skills .container-skills ul {
     padding: 0 3rem;
